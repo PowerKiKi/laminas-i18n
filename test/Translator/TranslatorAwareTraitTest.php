@@ -6,9 +6,6 @@ use Laminas\I18n\Translator\Translator;
 use Laminas\I18n\Translator\TranslatorAwareTrait;
 use PHPUnit\Framework\TestCase;
 
-/**
- * @requires PHP 7.3
- */
 class TranslatorAwareTraitTest extends TestCase
 {
     public function testSetTranslator()
